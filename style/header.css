@@ -1,0 +1,99 @@
+
+#head{
+    overflow: auto;
+    text-align: center;
+    margin-top: 28px;
+    padding-top: 1px;
+    padding-bottom: 18px;
+    color: white;
+    border-radius: 40px;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    background: linear-gradient(to bottom right, rgb(8, 4, 248), rgb(6, 186, 241), rgb(133, 12, 214));
+    height: 50%;
+    width: 96.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+.navbar ul{
+    background-color: black;
+    color: white;
+    border-radius: 36px;
+    margin-top: 3%;
+    position: sticky;
+    top: 0;
+    /* margin: 2%; */
+}
+
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    display: inline;
+    list-style-type: none;
+    padding: 1.75%;
+}
+.navbar li a{
+    padding: 10px 10px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    text-decoration: none;
+    color: rgb(6, 22, 241);
+}
+.navbar ul div{
+    float:right;
+    padding-top: 7px;
+    padding-right: 30px;
+    margin: 8px;
+}
+.navbar ul div input{
+    text-align: center;
+    width: 150px;
+    height: 25px;
+    border: 3px ridge grey;
+    border-radius: 20px;
+}
+#image{
+    text-align: center;
+    overflow: auto;
+    margin-top: 2%;
+}
+#icon{
+    color:rgb(6, 186, 241);
+    padding: 2px;
+    padding-top: 1px;
+}
+.body{
+    background-image: url(static/favicon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-attachment: fixed; */
+}
+.btn{
+    background: linear-gradient(to right, rgba(255, 0, 212, 0.877), rgb(119, 0, 255));
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    padding-bottom: 3px;
+    border: 0px;
+    border-radius: 36px;
+    color: white;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+.btn:hover{
+    background: white;
+    color: rgb(241, 6, 202);
+    transition: 0.3s ease-in-out;
+    border: 1px ridge rgb(241, 6, 202);
+}

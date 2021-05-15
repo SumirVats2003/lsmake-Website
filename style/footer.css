@@ -1,0 +1,67 @@
+.foot{
+    background-color: #24262b;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.footdiv li{
+    list-style-type: none;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#afafaf;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.footdiv li:hover{
+    color:#ffffff;
+    transition: 0.1s ease;
+}
+
+footer hr{
+    text-align: center;
+    /* color:rgb(255, 0, 106);     */
+}
+
+footer h4 {
+    font-size: 17px;
+    /* color: rgb(241, 18, 122); */
+    /* color: rgb(8, 4, 248); */
+    color: rgb(6, 186, 241);
+    /* color: rgb(133, 12, 214); */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer td{
+    margin: 10px;
+    padding: 15px;
+}
+
+footer p{
+    text-align: center;
+    color:rgb(160, 156, 156);
+    padding-bottom: 15px;
+}
+
+.foot .social{
+    overflow: auto;
+    text-align: center;
+}
+
+.foot .social a{
+    margin: 5px;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    height: 30px;
+    width: 30px;
+    background-color: #5c5d5f;
+    border-radius: 30px;
+    padding: 5px;
+    font-size: 29px;
+}
+
+.foot .social a:hover{
+    color:#24262b;
+    background-color: white;
+}
